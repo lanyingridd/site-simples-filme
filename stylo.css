@@ -1,0 +1,130 @@
+@font-face {
+    font-family: filmes;
+    src: url(img/Denike.otf);
+}
+
+
+body{
+    background-color: black;
+    color: white;
+    font-family: filmes;
+}
+
+header{
+    display: flex;
+    background-color: rgb(122, 18, 8);
+    align-items: center;
+    font-size: 1em;
+    font-weight: bold;
+    
+}
+
+picture img{
+    width: 150px;
+    height: 100px;
+}
+
+ul{
+    display: flex;
+}
+
+
+li{
+    margin-right: 50px;
+    list-style-type: none;  
+}
+
+header a{
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(122, 18, 8);
+    padding: 10px 35px;
+    margin: center;
+    border-radius: 1rem;
+}
+
+main{
+    display: flex;
+    border: 1px solid black;
+    height: 70vh auto;
+    width: 80vw auto;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 1rem ;
+    background-color: rgb(122, 18, 8);  
+}
+
+
+section.filme1 img{
+    width: 150px;
+
+}
+section.filme1{
+    text-align: center;
+    border: 1px solid white;
+    padding: 1rem;
+    margin-right: 50px;
+    height: 50vh auto;
+    width: 50vw auto;
+}
+section.filme1 p{
+    text-align: left;
+    padding: 1rem;
+
+}
+
+section.filme2 img{
+    width: 150px;
+}
+section.filme2{
+    text-align: center;
+    border: 1px solid white;
+    padding: 1rem;
+    margin-right: 50px;
+}
+section.filme2 p {
+    text-align: left;
+    padding: 1rem;
+}
+
+section.filme3 img{
+    width: 150px;
+}
+section.filme3{
+    text-align: center;
+    border: 1px solid white;
+    padding: 1rem;
+    margin-right: 50px;
+}
+section.filme3 p {
+    text-align: left;
+    padding: 1rem;
+}
+section.filme4 img{
+    width: 150px;
+}
+section.filme4{
+    text-align: center;
+    border: 1px solid white;
+    padding: 1rem;
+    margin-right: 50px;
+}
+section.filme4 p {
+    text-align: left;
+    padding: 1rem;
+}
+main button a{
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(122, 18, 8);
+    padding: 10px 35px;
+    margin: center;
+    border-radius: 1rem;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+}
